@@ -1,0 +1,47 @@
+.app__findus {
+    display: flex;
+    flex-direction: row;
+}
+
+.app__wrapper-info {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding: 2rem;
+}
+
+.app__wrapper-img {
+    flex: 1;
+}
+
+.app__wrapper-img img{
+    width: 80%;
+}
+
+@media screen and (max-width: 1050px) {
+    .app__findus {
+        flex-direction: column;
+    }
+
+    .app__wrapper-img {
+        margin-top: 1rem;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .app__wrapper-img img {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .headtext__cormorant {
+        font-size: 2rem !important;
+        margin-bottom: 0rem !important;
+    }
+
+    .p__cormorant {
+        margin-bottom: 0rem !important;
+    }
+}
